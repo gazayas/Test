@@ -6,11 +6,18 @@
 
 `$ git commit -m "二重引用符の中にメッセージを"`
 
-`$ git add remote origin` 「github　で作ったレポジトリのリンク先」
+`$ git add remote origin` 「github　で作ったレポジトリのリンク先」<br/>
 (インターネットの何かにつながってないからそうしないといけない）
 
 `$ git remote -v`（remote を 確認（verify）する）
 
 `$ git push origin master`
 
-以上
+レポジトリの作り方について以上です。
+
+/---------------------------------------------------/
+
+
+たまに `$ git pull 「レポジトリの名前」` を使うと vim に入る。<br/>
+その場合には、`i` を押すとコミットを書いて、 `esc` を書くと insert mode から出て、<br/>
+`:wq` を入力するとコミットを保存して vim から出る。
