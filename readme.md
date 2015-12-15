@@ -7,7 +7,7 @@ Github に載せたいダイレクトリーに移って、次の命令を打ち�
 
 `$ git commit -m "二重引用符の中にメッセージを"`
 
-`$ git remote add origin 「github　で作ったレポジトリのリンク先」`<br/>
+`$ git remote add origin 「githubで作ったレポジトリのリンク先」`<br/>
 (インターネットの何かにつながってないからそうしないといけない）
 
 `$ git remote -v`（remote を 確認（verify）する）
