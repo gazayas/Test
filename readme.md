@@ -37,7 +37,7 @@ Github に載せたいダイレクトリーに移って、次の命令を打ち�
 HTTPS と SSH のいずれかを選択できるオプションがある。</br>
 SSH の方を選択してください（SSH を作ってないなら、最初はそれをして github に SSH を追加する必要がある）
 
-そのリモートを git に追加する
+そのリモートを git に追加する<br/>
 `$ git remote set-url origin git@github.com:ユーザー名/レポジトリー名.git`
 
 
