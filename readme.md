@@ -1,3 +1,38 @@
+First, go to the directory you want to use git with and type this:
+
+`$ git init`
+
+`$ git add .`
+
+`$ git commit -m "Type your message in here"`
+
+`$ git remote add origin` -> After the word origin, type in the link to the GitHub repository
+
+`$ git remote -v` -> Check out the remote you added
+
+`$ git push origin master` -> Push your changes to GitHub
+
+/---------------------------------------------------/
+
+The flow for whenever you make changes:
+
+`$ git status` -> Check out the status of the project
+
+`$ git add .`
+
+`$ git commit -m "message here"`
+
+`$ git push origin master`
+
+That's it!
+
+/---------------------------------------------------/
+
+Adding an SSH key so you don't have to type in your user name and password whenever you push to GitHub<br/>
+[Checking for existing SSH keys](https://help.github.com/articles/checking-for-existing-ssh-keys/)<br/>
+[Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+[Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
 ### これは Git を練習するためのレポジトリです
 
 Github に載せたいダイレクトリーに移って、次の命令を打ち込む：<br/>
